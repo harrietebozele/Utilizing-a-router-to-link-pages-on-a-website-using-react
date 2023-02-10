@@ -1,0 +1,15 @@
+<script>
+    //detect hash change
+    function callback(e){
+        console.log(e);
+        console.log('location has changed');
+    }
+    window.addEventListener('hashchange',callback)
+    
+</script>
+<style>a{ font: 2em Arial, sans-serif;}</style>
+<p>
+    <a href="#about">About</a><br />
+    <a href="#mission">Mission</a><br />
+    <a href="#history">History</a><br />
+</p>
